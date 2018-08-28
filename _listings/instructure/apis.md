@@ -7,82 +7,68 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instru
 x-kinRank: "8"
 x-alexaRank: "367"
 tags: Replies
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/replies/master/_listings/instructure/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Instructure Canvas Courses API List entry replies
-  x-api-slug: instructure-canvas-courses-api
+- name: Instructure Canvas Courses API - List entry replies
+  x-api-slug: coursescourse-iddiscussion-topicstopic-identriesentry-idreplies-get
   description: List entry replies.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1//courses/{course_id}/discussion_topics/topic_id/entries/{entry_id}/replies
-  tags: Courses,Course,Id,Discussion,Topics,Topic,Id,Entries,Entry,Id,Replies
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/replies/master/_listings/instructure/coursescourse-iddiscussion-topicstopic-identriesentry-idreplies-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/replies/master/_listings/instructure/coursescourse-iddiscussion-topicstopic-identriesentry-idreplies-get-openapi.md
-- name: Instructure Canvas Courses API Post a reply
-  x-api-slug: instructure-canvas-courses-api
+- name: Instructure Canvas Courses API - Post a reply
+  x-api-slug: coursescourse-iddiscussion-topicstopic-identriesentry-idreplies-post
   description: Post a reply.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1//courses/{course_id}/discussion_topics/topic_id/entries/{entry_id}/replies
-  tags: Courses,Course,Id,Discussion,Topics,Topic,Id,Entries,Entry,Id,Replies
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/replies/master/_listings/instructure/coursescourse-iddiscussion-topicstopic-identriesentry-idreplies-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/replies/master/_listings/instructure/coursescourse-iddiscussion-topicstopic-identriesentry-idreplies-post-openapi.md
-- name: Instructure Canvas Courses API
-  x-api-slug: instructure-canvas-courses-api
-  description: Instructure makes software that makes smarter people. Products include
-    Canvas LMS, Bridge and Canvas Network.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
-  humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1
-  tags: Replies
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/replies/master/_listings/instructure/openapi.md
-- name: Instructure Canvas Groups API List entry replies
-  x-api-slug: instructure-canvas-groups-api
+- name: Instructure Canvas Groups API - List entry replies
+  x-api-slug: groupsgroup-iddiscussion-topicstopic-identriesentry-idreplies-get
   description: List entry replies.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1//groups/{group_id}/discussion_topics/topic_id/entries/{entry_id}/replies
-  tags: Groups,Group,Id,Discussion,Topics,Topic,Id,Entries,Entry,Id,Replies
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/replies/master/_listings/instructure/groupsgroup-iddiscussion-topicstopic-identriesentry-idreplies-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/replies/master/_listings/instructure/groupsgroup-iddiscussion-topicstopic-identriesentry-idreplies-get-openapi.md
-- name: Instructure Canvas Groups API Post a reply
-  x-api-slug: instructure-canvas-groups-api
+- name: Instructure Canvas Groups API - Post a reply
+  x-api-slug: groupsgroup-iddiscussion-topicstopic-identriesentry-idreplies-post
   description: Post a reply.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
   humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1//groups/{group_id}/discussion_topics/topic_id/entries/{entry_id}/replies
-  tags: Groups,Group,Id,Discussion,Topics,Topic,Id,Entries,Entry,Id,Replies
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/replies/master/_listings/instructure/groupsgroup-iddiscussion-topicstopic-identriesentry-idreplies-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/replies/master/_listings/instructure/groupsgroup-iddiscussion-topicstopic-identriesentry-idreplies-post-openapi.md
-- name: Instructure Canvas Groups API
-  x-api-slug: instructure-canvas-groups-api
-  description: Instructure makes software that makes smarter people. Products include
-    Canvas LMS, Bridge and Canvas Network.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
-  humanURL: http://instructure.com
-  baseURL: https://canvas.instructure.com//api/v1
-  tags: Replies
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/replies/master/_listings/instructure/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://instagram.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://instructure.stack.network
 - type: x-blog
   url: http://blog.instructure.com
 - type: x-blog-rss

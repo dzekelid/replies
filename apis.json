@@ -1,0 +1,166 @@
+{
+	"name": "Streadata.io API Gallery - Replies",
+	"description": "This is a repository of replies APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/replies.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://replies.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "BigOven",
+			"x-api-slug": "bigoven",
+			"description": "Free recipe app for home cooks. Create a meal plan, grocery list and more from your favorite recipes. Organize your recipe collection and take it anywhere.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/379-bigoven.jpg",
+			"humanURL": "http://www.bigoven.com",
+			"baseURL": "https://api2.bigoven.com//",
+			"tags": "Replies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/replies/master/_listings/bigoven/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Instructure",
+			"x-api-slug": "instructure",
+			"description": "Instructure makes software that makes smarter people. Products include Canvas LMS, Bridge and Canvas Network.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg",
+			"humanURL": "http://instructure.com",
+			"baseURL": "https://canvas.instructure.com//api/v1",
+			"tags": "Replies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/replies/master/_listings/instructure/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Meetup",
+			"x-api-slug": "meetup",
+			"description": "Find Meetups so you can do more of what matters to you. Or create your own group and meet people near you who share your interests.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg",
+			"humanURL": "http://meetup.com",
+			"baseURL": "https:///",
+			"tags": "Replies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/replies/master/_listings/meetup/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "3dcart",
+			"x-api-slug": "3dcart",
+			"description": "The 3dcart shopping cart software is a complete web store solution for anyone looking to start an online business, add a shopping cart to their existing website, or to replace their existing shopping cart platform. 3dcart includes the latest, most innovative features, tools, support and technology needed to build, promote and grow your online business.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg",
+			"humanURL": "http://www.3dcart.com",
+			"baseURL": "https://apirest.3dcart.com//",
+			"tags": "Replies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/replies/master/_listings/3dcart/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Microsoft Office 365",
+			"x-api-slug": "microsoft-office-365",
+			"description": "Integrate Office 365 REST APIs powered by Microsoft Graph into your own app to connect to files, calendars, mail and more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-office.png",
+			"humanURL": "http://office.com",
+			"baseURL": "https://outlook.office365.com//ews/odata/Me",
+			"tags": "Replies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/replies/master/_listings/microsoft-office-365/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Microsoft Graph",
+			"x-api-slug": "microsoft-graph",
+			"description": "Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft cloud services through a single endpoint: https://graph.microsoft.com. Microsoft Graph simplifies queries that would otherwise be more complex. You can use Microsoft Graph to: Access data from multiple Microsoft cloud services, including Azure Active Directory, Exchange Online as part of Office 365, SharePoint, OneDrive, OneNote, and Planner. Navigate between entities and relationships. Access intelligence and insights from the Microsoft cloud (for commercial users).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png",
+			"humanURL": "https://developer.microsoft.com/en-us/graph/",
+			"baseURL": "https://graph.microsoft.com//",
+			"tags": "Replies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/replies/master/_listings/microsoft-graph/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Steem",
+			"x-api-slug": "steem",
+			"description": "A new way for publishers to monetize their online content and community, based on battle-tested blockchain technology.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26649-steemit.jpg",
+			"humanURL": "http://steemit.com",
+			"baseURL": "https://api.steemjs.com//",
+			"tags": "Replies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/replies/master/_listings/steem/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plentymarkets",
+			"x-api-slug": "plentymarkets",
+			"description": "plentymarkets is an all-in-one e-commerce ERP solution, which combines a comprehensive stock management system with a versatile shop system and effortless multichannel sales. Thanks to comprehensive functions and interfaces that include all steps of the e-commerce value chain, you can use the cloud based software to completely automate all of your e-business processes as well as your companys own individual processes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png",
+			"humanURL": "http://www.plentymarkets.co.uk",
+			"baseURL": "https://example.com//",
+			"tags": "Replies",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/replies/master/_listings/plentymarkets/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Replies",
+	"include": [
+		{
+			"name": "BigOven",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/replies/master/_listings/bigoven/apis.yaml"
+		},
+		{
+			"name": "Instructure",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/replies/master/_listings/instructure/apis.yaml"
+		},
+		{
+			"name": "Meetup",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/replies/master/_listings/meetup/apis.yaml"
+		},
+		{
+			"name": "3dcart",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/replies/master/_listings/3dcart/apis.yaml"
+		},
+		{
+			"name": "Microsoft Office 365",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/replies/master/_listings/microsoft-office-365/apis.yaml"
+		},
+		{
+			"name": "Microsoft Graph",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/replies/master/_listings/microsoft-graph/apis.yaml"
+		},
+		{
+			"name": "Steem",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/replies/master/_listings/steem/apis.yaml"
+		},
+		{
+			"name": "Plentymarkets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/replies/master/_listings/plentymarkets/apis.yaml"
+		}
+	]
+}

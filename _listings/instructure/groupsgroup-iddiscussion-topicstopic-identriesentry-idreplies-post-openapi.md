@@ -16,6 +16,54 @@ produces:
 consumes:
 - application/json
 paths:
+  /courses/{course_id}/discussion_topics/topic_id/entries/{entry_id}/replies:
+    get:
+      summary: List entry replies
+      description: List entry replies.
+      operationId: list-entry-replies
+      x-api-path-slug: coursescourse-iddiscussion-topicstopic-identriesentry-idreplies-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Courses
+      - Course
+      - Id
+      - Discussion
+      - Topics
+      - Topic
+      - Id
+      - Entries
+      - Entry
+      - Id
+      - Replies
+    post:
+      summary: Post a reply
+      description: Post a reply.
+      operationId: post-a-reply
+      x-api-path-slug: coursescourse-iddiscussion-topicstopic-identriesentry-idreplies-post
+      parameters:
+      - in: query
+        name: attachment
+        description: a multipart/form-data form-field-style attachment
+      - in: query
+        name: message
+        description: The body of the entry
+      responses:
+        200:
+          description: OK
+      tags:
+      - Courses
+      - Course
+      - Id
+      - Discussion
+      - Topics
+      - Topic
+      - Id
+      - Entries
+      - Entry
+      - Id
+      - Replies
   /groups/{group_id}/discussion_topics/topic_id/entries/{entry_id}/replies:
     get:
       summary: List entry replies
